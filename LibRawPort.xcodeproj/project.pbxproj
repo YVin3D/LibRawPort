@@ -14,6 +14,17 @@
 		D8F975FD238A753E00EBC71F /* LibRawPort.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8F975FB238A753E00EBC71F /* LibRawPort.xcdatamodeld */; };
 		D8F975FF238A753F00EBC71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F975FE238A753F00EBC71F /* Assets.xcassets */; };
 		D8F97602238A753F00EBC71F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F97600238A753F00EBC71F /* LaunchScreen.storyboard */; };
+		D8F9763C238A759E00EBC71F /* libraw.pc in Resources */ = {isa = PBXBuildFile; fileRef = D8F97616238A759E00EBC71F /* libraw.pc */; };
+		D8F9763D238A759E00EBC71F /* libraw_r.pc in Resources */ = {isa = PBXBuildFile; fileRef = D8F97617238A759E00EBC71F /* libraw_r.pc */; };
+		D8F9763E238A759E00EBC71F /* libraw_r.la in Resources */ = {isa = PBXBuildFile; fileRef = D8F97618238A759E00EBC71F /* libraw_r.la */; };
+		D8F9763F238A759E00EBC71F /* libraw_r.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F97619238A759E00EBC71F /* libraw_r.a */; };
+		D8F97640238A759E00EBC71F /* libraw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F9761A238A759E00EBC71F /* libraw.a */; };
+		D8F97641238A759E00EBC71F /* libraw.la in Resources */ = {isa = PBXBuildFile; fileRef = D8F9761B238A759E00EBC71F /* libraw.la */; };
+		D8F97642238A759E00EBC71F /* LICENSE.LGPL in Resources */ = {isa = PBXBuildFile; fileRef = D8F9761F238A759E00EBC71F /* LICENSE.LGPL */; };
+		D8F97643238A759E00EBC71F /* LICENSE.CDDL in Resources */ = {isa = PBXBuildFile; fileRef = D8F97620238A759E00EBC71F /* LICENSE.CDDL */; };
+		D8F97644238A759E00EBC71F /* Changelog.txt in Resources */ = {isa = PBXBuildFile; fileRef = D8F97621238A759E00EBC71F /* Changelog.txt */; };
+		D8F97645238A759E00EBC71F /* COPYRIGHT in Resources */ = {isa = PBXBuildFile; fileRef = D8F97622238A759E00EBC71F /* COPYRIGHT */; };
+		D8F97653238A75C200EBC71F /* wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8F97651238A75C200EBC71F /* wrapper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,26 @@
 		D8F975FE238A753F00EBC71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8F97601238A753F00EBC71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8F97603238A753F00EBC71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F9760D238A759E00EBC71F /* libraw_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libraw_alloc.h; sourceTree = "<group>"; };
+		D8F9760E238A759E00EBC71F /* libraw_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libraw_version.h; sourceTree = "<group>"; };
+		D8F9760F238A759E00EBC71F /* libraw_const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libraw_const.h; sourceTree = "<group>"; };
+		D8F97610238A759E00EBC71F /* libraw_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libraw_internal.h; sourceTree = "<group>"; };
+		D8F97611238A759E00EBC71F /* libraw_datastream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libraw_datastream.h; sourceTree = "<group>"; };
+		D8F97612238A759E00EBC71F /* libraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libraw.h; sourceTree = "<group>"; };
+		D8F97613238A759E00EBC71F /* libraw_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libraw_types.h; sourceTree = "<group>"; };
+		D8F97616238A759E00EBC71F /* libraw.pc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libraw.pc; sourceTree = "<group>"; };
+		D8F97617238A759E00EBC71F /* libraw_r.pc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libraw_r.pc; sourceTree = "<group>"; };
+		D8F97618238A759E00EBC71F /* libraw_r.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libraw_r.la; sourceTree = "<group>"; };
+		D8F97619238A759E00EBC71F /* libraw_r.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libraw_r.a; sourceTree = "<group>"; };
+		D8F9761A238A759E00EBC71F /* libraw.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libraw.a; sourceTree = "<group>"; };
+		D8F9761B238A759E00EBC71F /* libraw.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libraw.la; sourceTree = "<group>"; };
+		D8F9761F238A759E00EBC71F /* LICENSE.LGPL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.LGPL; sourceTree = "<group>"; };
+		D8F97620238A759E00EBC71F /* LICENSE.CDDL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.CDDL; sourceTree = "<group>"; };
+		D8F97621238A759E00EBC71F /* Changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Changelog.txt; sourceTree = "<group>"; };
+		D8F97622238A759E00EBC71F /* COPYRIGHT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYRIGHT; sourceTree = "<group>"; };
+		D8F97650238A75C100EBC71F /* LibRawPort-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LibRawPort-Bridging-Header.h"; sourceTree = "<group>"; };
+		D8F97651238A75C200EBC71F /* wrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wrapper.cpp; sourceTree = "<group>"; };
+		D8F97652238A75C200EBC71F /* wrapper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = wrapper.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F97640238A759E00EBC71F /* libraw.a in Frameworks */,
+				D8F9763F238A759E00EBC71F /* libraw_r.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +75,7 @@
 		D8F975E6238A753E00EBC71F = {
 			isa = PBXGroup;
 			children = (
+				D8F97609238A759E00EBC71F /* libraw */,
 				D8F975F1238A753E00EBC71F /* LibRawPort */,
 				D8F975F0238A753E00EBC71F /* Products */,
 			);
@@ -68,6 +102,98 @@
 				D8F975FB238A753E00EBC71F /* LibRawPort.xcdatamodeld */,
 			);
 			path = LibRawPort;
+			sourceTree = "<group>";
+		};
+		D8F97609238A759E00EBC71F /* libraw */ = {
+			isa = PBXGroup;
+			children = (
+				D8F9760A238A759E00EBC71F /* arm64 */,
+				D8F97651238A75C200EBC71F /* wrapper.cpp */,
+				D8F97652238A75C200EBC71F /* wrapper.hpp */,
+				D8F97650238A75C100EBC71F /* LibRawPort-Bridging-Header.h */,
+			);
+			name = libraw;
+			path = LibRawPort/libraw;
+			sourceTree = "<group>";
+		};
+		D8F9760A238A759E00EBC71F /* arm64 */ = {
+			isa = PBXGroup;
+			children = (
+				D8F9760B238A759E00EBC71F /* include */,
+				D8F97614238A759E00EBC71F /* lib */,
+				D8F9761C238A759E00EBC71F /* share */,
+			);
+			path = arm64;
+			sourceTree = "<group>";
+		};
+		D8F9760B238A759E00EBC71F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D8F9760C238A759E00EBC71F /* libraw */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		D8F9760C238A759E00EBC71F /* libraw */ = {
+			isa = PBXGroup;
+			children = (
+				D8F9760D238A759E00EBC71F /* libraw_alloc.h */,
+				D8F9760E238A759E00EBC71F /* libraw_version.h */,
+				D8F9760F238A759E00EBC71F /* libraw_const.h */,
+				D8F97610238A759E00EBC71F /* libraw_internal.h */,
+				D8F97611238A759E00EBC71F /* libraw_datastream.h */,
+				D8F97612238A759E00EBC71F /* libraw.h */,
+				D8F97613238A759E00EBC71F /* libraw_types.h */,
+			);
+			path = libraw;
+			sourceTree = "<group>";
+		};
+		D8F97614238A759E00EBC71F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D8F97615238A759E00EBC71F /* pkgconfig */,
+				D8F97618238A759E00EBC71F /* libraw_r.la */,
+				D8F97619238A759E00EBC71F /* libraw_r.a */,
+				D8F9761A238A759E00EBC71F /* libraw.a */,
+				D8F9761B238A759E00EBC71F /* libraw.la */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		D8F97615238A759E00EBC71F /* pkgconfig */ = {
+			isa = PBXGroup;
+			children = (
+				D8F97616238A759E00EBC71F /* libraw.pc */,
+				D8F97617238A759E00EBC71F /* libraw_r.pc */,
+			);
+			path = pkgconfig;
+			sourceTree = "<group>";
+		};
+		D8F9761C238A759E00EBC71F /* share */ = {
+			isa = PBXGroup;
+			children = (
+				D8F9761D238A759E00EBC71F /* doc */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		D8F9761D238A759E00EBC71F /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				D8F9761E238A759E00EBC71F /* libraw */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		D8F9761E238A759E00EBC71F /* libraw */ = {
+			isa = PBXGroup;
+			children = (
+				D8F9761F238A759E00EBC71F /* LICENSE.LGPL */,
+				D8F97620238A759E00EBC71F /* LICENSE.CDDL */,
+				D8F97621238A759E00EBC71F /* Changelog.txt */,
+				D8F97622238A759E00EBC71F /* COPYRIGHT */,
+			);
+			path = libraw;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +228,7 @@
 				TargetAttributes = {
 					D8F975EE238A753E00EBC71F = {
 						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -129,8 +256,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8F97602238A753F00EBC71F /* LaunchScreen.storyboard in Resources */,
+				D8F97645238A759E00EBC71F /* COPYRIGHT in Resources */,
+				D8F97641238A759E00EBC71F /* libraw.la in Resources */,
+				D8F9763D238A759E00EBC71F /* libraw_r.pc in Resources */,
 				D8F975FF238A753F00EBC71F /* Assets.xcassets in Resources */,
+				D8F97642238A759E00EBC71F /* LICENSE.LGPL in Resources */,
 				D8F975FA238A753E00EBC71F /* Main.storyboard in Resources */,
+				D8F9763E238A759E00EBC71F /* libraw_r.la in Resources */,
+				D8F9763C238A759E00EBC71F /* libraw.pc in Resources */,
+				D8F97643238A759E00EBC71F /* LICENSE.CDDL in Resources */,
+				D8F97644238A759E00EBC71F /* Changelog.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +280,7 @@
 				D8F975FD238A753E00EBC71F /* LibRawPort.xcdatamodeld in Sources */,
 				D8F975F3238A753E00EBC71F /* AppDelegate.swift in Sources */,
 				D8F975F5238A753E00EBC71F /* SceneDelegate.swift in Sources */,
+				D8F97653238A75C200EBC71F /* wrapper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,15 +424,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F866ZHAR49;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LibRawPort/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LibRawPort/libraw/arm64/lib",
+					"$(PROJECT_DIR)/LibRawPort/libraw/x86_64/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.LibRawPort;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LibRawPort/libraw/LibRawPort-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,15 +451,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F866ZHAR49;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LibRawPort/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LibRawPort/libraw/arm64/lib",
+					"$(PROJECT_DIR)/LibRawPort/libraw/x86_64/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.LibRawPort;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LibRawPort/libraw/LibRawPort-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
