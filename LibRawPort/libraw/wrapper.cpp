@@ -8,28 +8,16 @@
 
 #include "wrapper.hpp"
 
-
-extern "C" int getRAWHeight() {
+extern "C" int getRAWHeight(const char* imagePath) {
     // Let us create an image processor
     LibRaw iProcessor;
     
-    // TODO: Change this to the correct path:
-    const char* basic = "sample.DNG";
-    
     // Open the file and read the metadata
-    int32_t error = iProcessor.open_file(basic);
+    int32_t error = iProcessor.open_file(imagePath);
     if (error != LIBRAW_SUCCESS) {
-        fprintf(stderr,"Cannot open %s: %s\n",basic,libraw_strerror(error));
+        fprintf(stderr,"Cannot open %s: %s\n",imagePath,libraw_strerror(error));
     };
     
-//    // Try reading using file_datastream too, maybe this works?
-//    LibRaw_file_datastream* filestr = new LibRaw_file_datastream(basic);
-//    error = iProcessor.open_datastream(filestr);
-//    if (error != LIBRAW_SUCCESS) {
-//        fprintf(stderr,"Cannot open AGAIN %s: %s\n",basic,libraw_strerror(error));
-//    };
-    
-
     // The metadata are accessible through data fields of the class
     printf("Image size: %d x %d\n",iProcessor.imgdata.sizes.width,iProcessor.imgdata.sizes.height);
     
